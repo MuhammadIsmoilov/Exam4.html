@@ -1,0 +1,955 @@
+*{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.zagolovok{
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+     background-color: #28293E;
+
+     .slider1 img{
+        width: 48px;
+        height: 48px;
+       
+     }
+     .slider1 a{
+          text-decoration: none;
+          margin-left: 10px;
+          font-size: 20px;
+          color: white;
+     }
+     .slider2 a{
+        text-decoration: none;
+        margin: 50px;
+        color: white;
+     
+         
+     }
+     .slider3 input{
+        padding: 7px;
+        margin-top: 30px;
+        color: white;
+        background-color: #28293E;
+     }
+     .slider3 input:hover{
+        background-color: lightgrey;
+        color: black;
+     }
+
+}
+.content1{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding-top: 100px;
+    background-color: #28293E;
+    padding-bottom: 100px;
+
+    .photo1 img{
+        width: 565px;
+        height: 555px;
+    }
+    .gabriel{
+      
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .gabriel h4{
+        color: #EF6D58;
+       margin-bottom: 20px;
+    }
+    .gabriel h1{
+        color: white;
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+    .gabriel p{
+        color: rgba(255, 255, 255, 0.64);
+        margin-bottom: 20px;
+    }
+    .gabriel input{
+        width: 155px;
+        height: 50px;
+        background-color: #EF6D58;
+        color: white;
+    }
+    .gabriel input:hover{
+        background-color: lightgrey;
+        color: black;
+    }
+}
+.zagolovok2{
+  text-align: center;
+  padding: 100px;
+  background-color: #FDF0E9;
+
+
+    .servis h4{
+        color: #EF6D58;
+    }
+    .servis h1{
+        font-size: 55px;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+.content2{
+    background-color: #FDF0E9;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+
+
+    .design{
+        border: 1px solid #EF6D58 ;
+        width: 490px;
+       padding: 20px;
+    }
+    .design i{
+        color: white;
+        background-color: #EF6D58;
+        border: 2px solid;
+        border-radius: 50%;
+       padding: 20px;
+       margin-bottom: 20px;
+    }
+    #plus{
+        color: #EF6D58;
+        background-color: white;
+        border-color: white;
+        margin-top: 20px;
+    }
+}
+.learn{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1em;
+   background-color: #FDF0E9;
+   padding-bottom: 100px;
+    .learn1 p{
+        color:#391400A3 ;
+    }
+    .learn2 p{
+        color: black;
+    }
+}
+.zagolovok3{
+    background-color: #28293E;
+    display: flex;
+    justify-content: space-around;
+    gap: 20em;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+
+
+    .portfolio h4{
+        color: #EF6D58;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .portfolio h1{
+        font-size: 55px;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+     .more input{
+       background-color: #28293E;
+       color: white;
+       padding: 6px;
+      margin-top: 45px;
+     }
+     .more input:hover{
+        background-color: lightgrey;
+        color: black;
+
+     }
+}
+.content3{
+    display: flex;
+    justify-content: space-around;
+    background-color: #28293E;
+    padding-bottom: 60px;
+
+
+
+    .sofa1, .sofa2, .sofa3 img{
+        width: 445px;
+        height: 565px;
+    }
+    input{
+        border-radius: 20px;
+        padding: 7px;
+        margin-left: 15px;
+        position: relative;
+        bottom: 120px;
+        border-color: white;
+    }
+    h1{
+        position: relative;
+        bottom: 100px;
+        margin-left: 15px;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+.content4{
+     background-color: #FDF0E9;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20em;
+
+
+
+    .photo2 img{
+        width: 530px;
+        height: 550px;
+    }
+    .gabriel2 h4{
+        color: #EF6D58;
+        width: 480px;
+        margin-bottom: 10px;
+    }
+    .gabriel2 p{
+        color: #391400A3;
+        width: 480px;
+        margin-bottom: 20px;
+    }
+    .gabriel2 h3{
+        margin-bottom: 20px;
+        color: black;
+        width: 480px;
+    }
+    .gabriel2 h1{
+        margin-bottom: 20px;
+        width: 480px;
+        font-size: 55px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .gabriel2 input{
+        padding: 7px;
+        color: black;
+        background-color: white;
+        border-color: white;
+    }
+    .gabriel2 input:hover{
+        background-color: grey;
+        color: white;
+    }
+}
+.project{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: #FDF0E9;
+    .icon i{
+        color: white;
+        background-color: #EF6D58;
+        border: 2px solid;
+        border-radius: 50%;
+       padding: 20px;
+       margin-bottom: 20px;
+    }
+    .icon2 i{
+        color: white;
+        background-color: #EF6D58;
+        border: 2px solid;
+        border-radius: 50%;
+       padding: 20px;
+       margin-bottom: 20px;
+    }
+    .icon p,  .icon2 p{
+        margin-left: 75px;
+       position: relative;
+       bottom: 30px;
+    }
+    .icon{
+        border: 1px solid #EF6D58;
+        width: 580px;
+        padding: 20px;
+    }
+    .icon2{
+        border: 1px solid #EF6D58;
+        width: 580px;
+        padding: 20px;
+    }
+
+}
+.content5{
+    background-color: #28293E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    padding-bottom: 100px;
+
+
+    .photo3 img{
+        width: 580px;
+        height: 570px;
+    }
+    h1{
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    h4{
+        margin-bottom: 20px;
+    }
+    h3{
+        color: #EF6D58;
+    }
+    p{
+        color: #FFFFFFA3;
+        margin-bottom: 10px;
+    }
+    i{
+        border: 1px solid #EF6D58;
+        border-radius: 50%;
+        color: white;
+        background-color: #EF6D58;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+}
+.star{
+    background-color: #FDF0E9;
+    img{
+        width: 148px;
+        height: 148px;
+        margin-left: 125px;
+        position: relative;
+        bottom: 65px;
+    }
+    i{
+        color: white;
+        font-size: 2em;
+        margin-left: -95px;
+        position: relative;
+        bottom: 130px;
+    }
+}
+.content6{
+    background-color: #FDF0E9;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
+
+      h1{
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      p{
+        color: #391400A3;
+        margin-bottom: 10px;
+      }
+      .start1 h4{
+        color: #EF6D58;
+        margin-bottom: 10px;
+      }
+      input{
+        border-color: #EF6D58;
+        padding: 5px;
+        color: white;
+        background-color: #EF6D58;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-radius: 7px;
+    
+    }
+    .photo4 img{
+      width: 335px;
+      height: 175px;
+    }
+    
+
+
+}
+.clients{
+    text-align: center;
+    align-items: center;
+    background-color: #F3D1BF;
+    padding-top: 100px;
+   
+
+    h3{
+        color: #EF6D58;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+.content7{
+    background-color: #F3D1BF;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    p{
+        margin-bottom: 50px;
+        width: 270px;
+    }
+    .item1,.item3{
+        width: 350px;
+        height: 445px;
+        border: 1px solid grey;
+        padding : 40px;
+    }
+   .biography img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   }
+  
+  
+   .biography{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+   }
+   .biography1{
+    display: flex;
+    align-items: center;
+   
+    padding-top: 20px;
+   }
+   
+   i{
+    color: #F6D021;
+    margin-bottom: 50px;
+   }
+   .item2{  
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    border: 1px solid ;
+    padding: 30px;  
+     img{
+        width: 90px;
+        padding: 30px;
+     }
+   }
+
+}
+.see{
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: #F3D1BF;
+
+  input{
+        padding: 7px;
+        background-color: white;
+        color: black;
+        width: 90px;
+    }
+    input:hover{
+        background-color: lightgrey;
+    }
+}
+.content8{
+    background-color: #28293E;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+
+
+
+    i{
+        color: white;
+        background-color: #EF6D58;
+        padding: 5px;
+        border-radius: 50%;
+        text-align: center;
+        width: 30px;
+       
+
+    }
+    .question h3{
+        color: #EF6D58;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       margin-bottom: 20px;
+    }
+    .question h1{
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .question p{
+        color: lightgrey;
+        margin-bottom: 20px;
+    }
+    .business{
+        width: 530px;
+        height: 275px;
+       
+    }
+    .business1 {
+        background-color: white;
+        border: 1px solid white;
+        color: black;
+        padding: 30px;
+        p{
+            color: lightgrey;
+        }
+    }
+    h2{
+        border: 1px solid grey;
+        padding: 30px;
+        color: white;
+    }
+
+}
+.zagolovok4{
+     background-color: #28293E;
+     display: flex;
+     justify-content: space-around;
+     align-items: baseline;
+     padding-top: 50px;
+     padding-bottom: 100px;
+
+
+
+    .icon1 img{
+        width: 147px;
+       height: 42px;
+    }
+    .icon2 img{
+        width: 110px;
+        height: 35px;
+    }
+    .icon3 img{
+        width: 120px;
+        height: 47px;
+    }
+    .icon4 img{
+        width: 87px;
+        height: 25px;
+        
+    }
+    .icon5 img{
+        width: 125px;
+        height: 25px;
+        
+    }
+}
+.content9{
+   display: flex;
+   justify-content: space-around;
+   align-items: baseline;
+   padding-top: 100px;
+   background-color: #F3D1BF;
+   padding-bottom: 100px;
+
+    .blog h4{
+        color: #EF6D58;
+        margin-bottom: 20px;
+    }
+    .blog h1{
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    .blog img{
+        width: 770px;
+        height: 465px;
+       
+    }
+    .discover input{
+        color: black;
+        background-color: white;
+        padding: 7px;
+        margin-bottom: 170px;
+       position: relative;
+       top: 120px;
+       margin-left: 155px;
+      
+    }
+    .discover h5{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .discover1 img{
+        width: 270px;
+        height: 160px;
+        
+    }
+    .discover2 img{
+        width: 270px;
+        height: 160px;
+        
+    }
+}
+.content10{
+    background-color: #28293E;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+   padding-bottom: 150px;
+
+
+    .contact1{
+        color: black;
+        border: 2px solid #EF6D58;
+        width: 570px;
+        padding: 20px;
+        background-color: white;
+       
+        input{
+            width: 500px;
+            height: 30px;
+            padding: 7px;
+        }
+        select{
+            width: 517px;
+            height: 45px;
+            padding: 5px;
+        }
+        #sms{
+            height: 100px;
+            padding: 7px
+        }
+        #sub{
+            color: white;
+            background-color: #EF6D58;
+            padding: 7px;
+            border-color: #EF6D58;
+            width: 110px;
+            margin-left: 407px;
+           margin-top: 10px;
+        }
+    }
+    .contact2{
+        padding: 20px;
+        h1{
+            font-size: 55px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        h4{
+            color: #EF6D58;
+            margin-bottom: 20px;
+        }
+        p{
+            color: lightgrey;
+            margin-bottom: 20px;
+        }
+        h3{
+            color: white;
+            margin-bottom: 20px;
+        }
+        h3 i{
+            color: white;
+            background-color: #EF6D58;
+            padding: 10px;
+            border-radius: 50%;
+        }
+    }
+}
+.content11{
+    background-color: #F3D1BF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+
+
+   .help{
+    h1{
+        color: black;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    h4{
+        color: #EF6D58;
+        margin-bottom: 20px;
+    }
+    p{
+        color: grey;
+        margin-bottom: 20px;
+    }
+    input{
+        color: white;
+        background-color: #EF6D58;
+        padding: 7px;
+        border-radius: 5px;
+        border-color: #EF6D58;
+    }
+   }
+
+    .help2 img{
+        width: 570px;
+        height: 600px;
+    }
+}
+.zagolovok5{
+     display: flex;
+     background-color: #28293E;
+
+    img{
+        width: 245.5px;
+        height: 250px;
+    }
+}
+.footer{
+   background-color: #28293E;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+     
+
+    .personal h2{
+        color: white;
+        font-size: 20px;
+    }
+    .menu h3{
+        color: #EF6D58;
+        margin-bottom: 15px;
+    }
+    .menu p{
+        color: white;
+        margin-bottom: 10px;
+    }
+    .contact3 h3{
+        color: #EF6D58;
+        margin-bottom: 15px;
+    }
+    .contact3 p{
+        color: white;
+        margin-bottom: 10px;
+    }
+     i{
+        color: white;
+        background-color: #EF6D58;
+        padding: 7px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+}
+@media (max-width:770px) {
+    .zagolovok{
+        display: none;
+       
+    
+    }
+    .content1{
+       
+        width: 153%;
+        flex-wrap: wrap;
+        .gabriel{
+            width: 100%;
+        }
+           
+    }
+    .zagolovok2{
+       display: flex;
+       justify-content: center;
+        width: 100%;
+        .servis{
+            width: 90%;
+        }
+    }
+    .content2{
+        flex-wrap: wrap;
+        width: 153%;
+        .design{
+            width: 100%;
+        }
+    }
+    .learn{
+        display: none;
+        width: 100%;
+    }
+    .zagolovok3{
+       
+        width: 153%;
+        .portfolio{
+            margin-left: 300px;
+            width: 100%;
+        }
+        .more{
+            position: relative;
+            right: 470px;
+            top: 130px;
+           
+        }
+    }
+    .content3{
+        flex-wrap: wrap;
+        width: 153%;
+        .sofa1 {
+            width: 100%;
+           
+        }
+      
+    }
+    .content4{
+        flex-wrap: wrap;
+        width: 153%;
+        .photo2{
+            width: 100%;
+            margin-top: 100px;
+            .gabriel2{
+                width: 100%;
+              
+            }
+        }
+    }
+    .project{
+        flex-wrap: wrap;
+        width: 153%;
+        .icon{
+            width: 100%;
+        }
+        .icon2{
+            width: 100%;
+        }
+    }
+    .content5{
+       flex-wrap: wrap;
+        width: 153%;
+        .features{
+            width: 100%;
+        }
+        .photo{
+            width: 100%;
+        }
+        .star{
+            width: 253%;
+            position: relative;
+            left: 300px;
+        }
+    }
+    .content6{
+      flex-wrap: wrap;
+        width: 153%;
+        .start1, .start2,.start3{
+            width: 100%;
+            padding-bottom: 30px;
+        }
+    }
+    .cleints{
+       display: flex;
+       justify-content: center;
+        width: 180%;
+    
+    }
+    .content7{
+       flex-wrap: wrap;
+        width: 153%;
+        .item1,.item2,.item3{
+            width: 190%;
+        }
+    }
+    .see{
+        width: 153%;
+    }
+    .content8{
+      flex-wrap: wrap;
+        width: 153%;
+        .question{
+            width: 100%;
+            padding-bottom: 30px;
+        }
+        .business{
+            width: 100%;
+            padding-bottom: 100px;
+        }
+    }
+    .zagolovok4{
+      flex-wrap: wrap;
+        width: 153%;
+        .icon1,.icon2,.icon3,.icon4,.icon5{
+            width: 40%;
+          
+        }
+    }
+    .content9{
+       flex-wrap: wrap;
+        width: 153%;
+        .blog{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+       
+    }
+    .discover{
+        flex-wrap: wrap;
+        width: 153%;
+        .discover1{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100vh;
+            }
+        }
+        .discover2{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100vh;
+            }
+        }
+    }
+    .content10{
+      flex-wrap: wrap;
+        width: 153%;
+        .contact1{
+            width: 100%;
+        }
+        .contact2{
+            width: 100%;
+        }
+    }
+    .content11{
+     flex-wrap: wrap;
+        width: 153%;
+        .help{
+            width: 100%;
+            
+        }
+        .help2{
+            width: 100%;
+        }
+    }
+    .zagolovok5{
+        flex-wrap: wrap;
+        width: 153%;
+        .surat1,.surat2,.surat3,.surat4,.surat5,.surat6{
+          width: 45%;
+          margin-left:25px ;
+        }
+    }
+    .footer{
+       flex-wrap: wrap;
+        width: 153%;
+        .personal{
+            width: 100%;
+            text-align: center;
+        }
+        .menu{
+            width: 100%;
+            text-align: center;
+        }
+        .contact3{
+            width: 100%;
+            text-align: center;
+        }
+        .instagram{
+            width: 100%;
+        }
+
+    }
+}
